@@ -1,5 +1,12 @@
 menu "Target packages"
 
+
+menu "FF Adventurer 5m Klipper-mod"
+    source "package/python-ff-ad5m-audio/Config.in"
+    source "package/python-ff-ad5m-backlight/Config.in"
+    source "package/guppyscreen/Config.in"
+endmenu
+
 	source "package/busybox/Config.in"
 	source "package/skeleton/Config.in"
 	source "package/skeleton-custom/Config.in"
@@ -1053,8 +1060,6 @@ menu "External python modules"
 	source "package/python-esptool/Config.in"
 	source "package/python-executing/Config.in"
 	source "package/python-falcon/Config.in"
-    source "package/python-ff-ad5m-audio/Config.in"
-    source "package/python-ff-ad5m-backlight/Config.in"
 	source "package/python-filelock/Config.in"
 	source "package/python-fire/Config.in"
 	source "package/python-flask/Config.in"
